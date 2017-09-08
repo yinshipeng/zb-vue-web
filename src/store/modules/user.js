@@ -46,7 +46,7 @@ const actions = {
 
 const getters = {
   getUserData(state){
-    return JSON.parse(JSON.stringify(state.userData));
+    return state.userData
   },
   getTotalCount(state){
     return state.totalCount;

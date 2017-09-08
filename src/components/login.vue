@@ -1,7 +1,7 @@
 <template>
   <div class="login-wrapper">
     <div class="bg"></div>
-    <h1>一账通后台管理系统</h1>
+    <h1>XXX后台管理系统</h1>
     <el-form ref="form" :model="form" :rules="rules" @submit.native.prevent="onSubmit">
       <el-form-item prop="username">
         <el-col :span="8" :offset="8">
