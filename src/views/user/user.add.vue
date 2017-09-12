@@ -143,6 +143,7 @@
       }
     },
     mounted(){
+        console.log('user add')
       if(this.$route.params.id){
         this.ruleForm.id = this.$route.params.id;
       }

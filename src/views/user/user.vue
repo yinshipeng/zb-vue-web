@@ -154,7 +154,11 @@
             UserAddDialog
         },
         mounted(){
+            console.log('this is user list')
             this.onSubmit();
+        },
+        created(){
+            console.log('11')
         }
     }
 

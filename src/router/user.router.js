@@ -7,7 +7,10 @@ export default [
   {
     path:'/user',
     name:'user',
-    component:User
+    component:User,
+    meta: {
+        keepAlive: true
+    }
   },
   {
     path:'/user/add',
